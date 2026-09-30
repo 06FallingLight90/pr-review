@@ -29,3 +29,7 @@ New-Item -ItemType Junction -Path "$env:USERPROFILE\.trae-cn\skills\pr-review" -
 - 审查 PR / MR / commit / 分支差异（给出链接、编号或 diff）
 - 评估改动与文档/协议/项目结构的一致性
 - 合并前最终检查、结构性判断（文件放置、方案取舍）
+
+## 致谢
+
+两轴并行审查架构（一致性轴 / 实现度轴由隔离子代理执行、各自独立输出预算、并列呈现不合并重排）借鉴自 [mattpocock/skills](https://github.com/mattpocock/skills)（MIT License）之 `code-review` 的思想并重新表达。
